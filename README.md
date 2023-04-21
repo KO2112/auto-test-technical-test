@@ -18,3 +18,8 @@ A simple introduction to matrix mathematics can be found here: https://www.cuema
 - Fork this repo into your own GitHub account
 - To run your tests, use your IDE to run tests in the `RunCucumberTests.java` class or run `mvn test`
 - Put any assumptions, notes and instructions into your README.md.
+
+
+# I DID NOT WRITE A TEST CASE FOR DECIMAL NUMBERS BECASUE IT ALREADY GIVES DECIMAL NUMBER
+
+# I did not write a test case for only integer values (not decimal) because built methods does not accept int[][] it only accepts double[][] I would have created 1 more method for int[][]
