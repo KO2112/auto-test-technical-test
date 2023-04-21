@@ -22,9 +22,9 @@ public class MetricStepdef {
     @When("I add two matrices together")
     public void i_add_two_matrices_together() {
         resultMatrix = matrix1.plus(matrix2);
-        System.out.println((Arrays.deepToString(matrix1.getData())));
-        System.out.println(Arrays.deepToString(matrix2.getData()));
-        System.out.println(Arrays.deepToString(resultMatrix.getData()));
+//        System.out.println((Arrays.deepToString(matrix1.getData())));
+//        System.out.println(Arrays.deepToString(matrix2.getData()));
+//        System.out.println(Arrays.deepToString(resultMatrix.getData()));
 
     }
 
