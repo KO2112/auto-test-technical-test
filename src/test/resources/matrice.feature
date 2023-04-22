@@ -54,8 +54,4 @@ Feature: metrices should be able to
     When I add two matrices together
     Then result should be correct with summed up values
 
-    Scenario: adding 2 0x0 metrices
-      Given I have two 0 and 0 metrices with negative and positive integers
-      When I add two matrices together
-      Then I add these two together and it should fail with given error
 

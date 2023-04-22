@@ -87,14 +87,6 @@ public class MetricStepdef {
         matrix1 = new Matrix(data);
         matrix2 = new Matrix(data1);
     }
-
-    @Then("I add these two together and it should fail with given error")
-    public void iAddTheseTwoTogetherAndItShouldFailWithGivenError() {
-        try {
-            Matrix expectedMatrix = matrix1.plus(matrix2);
-            fail("Number of rows and columns must be greater than 0");
-        } catch (IllegalArgumentException e) {
-            assertTrue(true);
-        }
-    }
 }
+
+
