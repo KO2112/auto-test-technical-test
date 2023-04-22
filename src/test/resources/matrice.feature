@@ -1,4 +1,4 @@
-Feature: metrices should be able to
+Feature: application must be able to add two matrices.
 
   Scenario: Adding two 2x2 matrices with positive integers
     Given I have two 2 and 2 metrices with ONLY positive integers
