@@ -37,7 +37,7 @@ public class MetricStepdef {
 
     @Given("I have two {int} and {int} metrices with ONLY negative integers")
     public void iHaveTwoAndMetricesWithNegativeIntegers(int rows, int cols) {
-        // JAVA DOESN'T GIVE US NEGATIVE NUMBERS WHEN USING RANDOM SO WE HAVE TO DECLARE OURSELVES
+        // JAVA DOESN'T GIVE US NEGATIVE NUMBERS WHEN USING RANDOM SO WE HAVE TO DO IT OURSELVES
         Random random = new Random();
         double[][] data = new double[rows][cols];
         double[][] data1 = new double[rows][cols];
