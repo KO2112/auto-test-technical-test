@@ -51,16 +51,12 @@ public class MetricStepdef {
         matrix2 = new Matrix(data1);
     }
 
-
-
-
     @Given("I have two {int} and {int} metrices with different dimensons")
     public void iHaveTwoAndMetricesWithDifferentDimensons(int rows, int cols) {
         matrix1 = Matrix.random(2, 3);
         matrix2 = Matrix.random(3, 2);
 
     }
-
 
     @When("I add these two together and it should fail")
     public void iAddTheseTwoTogether() {
